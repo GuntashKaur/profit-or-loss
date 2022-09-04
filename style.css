@@ -1,8 +1,54 @@
 body{
+    width: 500px;
+    display: block;
+    margin: auto;
     text-align: center;
+    margin-top: 50px;
+   
 }
 
 label{
     display: block;
     padding-bottom: 20px;
+    color: lightcoral;
+    font-size:larger;
+}
+
+input{
+    color: lightcoral;
+    font-size:medium;
+}
+
+.container{
+    border: 2px solid lightcoral;
+    padding: 20px;
+    height: 300px;
+    
+}
+
+h1{
+    color: lightcoral;
+}
+
+button{
+    margin-top: 10px;
+    background-color: lightcoral;
+    color: white;
+    font-size: large;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: white;
+    border: 2px solid lightcoral;
+    color: lightcoral;
+}
+
+
+#outputEl{
+    color: lightcoral;
+    font-size: large;
 }
