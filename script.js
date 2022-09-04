@@ -9,11 +9,11 @@ button.addEventListener("click", clickHandler);
 
 function clickHandler(){
 
-    var inp = Number(initialPrice.value);
-    var quan = Number(quantityOfStock.value);
-    var curr = Number(currentPrice.value);
+    var inp = initialPrice.value;
+    var qos = quantityOfStock.value;
+    var cp = currentPrice.value;
 
-    calculate(inp, quan, curr);
+    calculate(inp, qos, cp);
 }
 
 function calculate(initial, quantity, current){
